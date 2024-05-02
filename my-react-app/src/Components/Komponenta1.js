@@ -1,5 +1,8 @@
 import React from "react";
+const animals = ['slon', 'zebra', 'pas'];
 
 export default function Komponenta1() {
-    return <h2>Za import</h2>;
+    return <div>Ovo su moje zivotinje:  {animals.join(', ')}
+    <br></br>
+    </div>
 }
