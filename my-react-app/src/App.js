@@ -1,25 +1,17 @@
 import logo from './react_1.png';
 import './App.css';
+import { Komponenta1 } from './Components';
+import { Komponenta2 } from './Components';
+import { Komponenta3 } from './Components';
+import { Komponenta4 } from './Components';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Moja prva aplikacija
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Komponenta1></Komponenta1>
+    <Komponenta2></Komponenta2>
+    <Komponenta3></Komponenta3>
+    <Komponenta4></Komponenta4>
     </div>
   );
 }
-
-export default App;
